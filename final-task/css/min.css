@@ -1,0 +1,49 @@
+@media screen and (max-width:1205px) {
+	/*在窄屏下的布局*/
+	.top,.nav,.other,.subject,.float {
+		width: 960px;
+		margin: 0 auto;
+	}
+	/*导航区搜索按钮*/
+	.search-glass {
+		margin-right: 0px;
+	}
+	/*轮播图*/
+	.Banner-main li {
+		width: 100vw;
+		min-width: 1364px;
+	}
+	.Banner-main li img {
+		min-width: 1364px;
+	}
+	.banner-btn {
+		left: 660px;
+	}
+	/*窄屏下的other*/
+	.other>div {
+		float: left;
+		width: 270px;
+	}
+	.other-left {
+		margin-left: 0px;
+	}
+	.other-center {
+		margin-left: 71px;
+		margin-right: 77px;
+	}
+	.other p {
+		width: 172px;
+	}
+	/*学科数据展示*/
+	.suject-left {
+		width: 736px;
+	}
+	/*照片墙展示*/
+	.photo-ul ul {
+		min-width: 1200px;
+	}
+	.photo-ul ul li {
+		width: 235px;
+		margin-right: 5px;
+	}
+}
