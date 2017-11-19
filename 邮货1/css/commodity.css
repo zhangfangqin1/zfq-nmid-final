@@ -1,0 +1,37 @@
+#wrapper {
+	background: #fff;
+}
+.commodity {
+	width: 980px;
+    margin: 20px auto;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+}
+.commodity img {
+	height: 300px;
+	margin-top: 40px;
+	margin-left: 40px;
+}
+
+.commodity-detail {
+	display: inline-block;
+	position: relative;
+	left: 40px;
+	bottom: 100px;
+	margin-left: 30px;
+}
+.commodity-detail p {
+	margin-left: 10px;
+	margin-top: 8px;
+}
+.collect {
+	margin-top: -26px;
+	margin-bottom: 20px;
+}
+.collect>a>img {
+	height: 20px;
+}
+.collect a:hover {
+	cursor: pointer;
+	color: #ffda44;
+}

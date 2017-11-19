@@ -1,0 +1,60 @@
+#wrapper {
+	margin: 0 auto;
+}
+.mySeek-list {
+	width: 980px;
+	margin: 0 auto;
+	margin-bottom: 20px;
+}
+.selectall input {
+	margin-left: 20px;
+}
+.selectall span {
+	display: inline-block;
+	margin: 10px 20px;
+	font-size: 16px;
+
+}
+.mySeek-detail {
+	border:2px solid #ccc;
+	border-radius: 10px;
+}
+
+.mySeek-select {
+	height: 226px;
+	margin: 10px 20px;
+	border:1px solid #ccc;
+	border-radius: 4px;
+}
+
+.mySeek-select input {
+	display: inline-block;
+	margin-left: 20px;
+	margin-top: 20px;
+}
+.mySeek-select>img {
+	height: 200px;
+	margin-top: 12px;
+	margin-left: 20px;
+} 
+.mySeek-select>img:hover {
+	position: relative;
+	bottom: 2px;
+	left: 2px;
+	cursor: pointer;
+}
+.mySeek-name,.status,.cancel{
+	display: inline-block;
+	margin-left: 114px;
+	margin-top: 70px;
+	vertical-align: top;
+}
+
+.mySeek-name a:hover,.cancel a:hover {
+	cursor: pointer;
+	color: #ffda44;
+}
+.mySeek-select p {
+	margin-top: 10px;
+	margin-left: 10px;
+}

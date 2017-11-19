@@ -1,0 +1,187 @@
+#wrapper .content {
+	margin: 20px 164px;
+}
+
+.content-title h1 {
+	width: 140px;
+	height: 50px;
+	margin: 0 auto;
+	border-radius: 10px;
+	background: #ffda44;
+}
+
+.content-picture {
+	width: 500px;
+	margin:30px auto;
+	overflow: hidden;
+}
+
+.content-picture span {
+	display: block;
+	margin-left: 10px;
+	margin-bottom: 8px;
+}
+
+.content-picture span a:hover {
+	cursor: pointer;
+	color: #ffda44;
+}
+
+.content-picture div {
+	width: 150px;
+	height: 150px;
+	float: left;
+	margin-left: 12px;
+	margin-bottom: 10px;
+	border:1px solid #ccc;
+}
+
+.inputs {
+	margin-top: -36px;
+}
+
+.input-bar {
+	width: 360px;
+	height: 18px;
+	margin: 20px 440px;
+
+}
+
+.input-bar input {
+	height: 30px;
+	margin-top: 6px;
+	vertical-align: bottom;
+}
+
+.input-bar p {
+	margin-top: 50px;
+	font-size: 18px;
+}
+
+.radio-bar span {
+	display: inline-block;
+	vertical-align: bottom;
+	margin-right: 10px;
+}
+
+.addition {
+	width: 400px;
+	height: 100px;
+	margin-top: 54px;
+	margin-left: 440px;
+}
+
+.addition textarea {
+	width: 300px;
+	height: 100px;
+}
+.addition span {
+	margin-left: 100px;
+	font-size: 12px;
+	color: #ccc;
+}
+
+.submit {
+	margin-top: 40px;
+	margin-bottom: 20px;
+	padding-left: 700px;
+}
+
+.submit button {
+	width: 100px;
+	height: 30px;
+	background: #ffda44;
+	border:none;
+}
+
+.content {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+.file_upload{
+	width: 1000px;
+	min-height: 200px;
+	margin: 10px;
+	position: relative;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.file_upload > div{
+	width: 100%;
+	height: 100%;
+}
+
+.file_con .hide{
+	width: 120px;
+	height: 30px;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	position: absolute;
+	left: 0;
+	z-index: 22;
+}
+
+.file_con .file_uploader {
+	position: absolute;
+	left: 0;
+	top: 0;
+	display: inline-block;
+	padding: 6px 14px;
+	color: #fff;
+	background: #2ECC71;
+	text-align: center;
+	z-index: 11;
+	border-radius: 15px;
+	cursor: pointer;
+}
+
+.file_con .hide:hover{
+	box-shadow: 1px 2px #44795b;
+}
+
+.img_holder,.m_img_holder{
+	width: 800px;
+	height: 200px;
+	margin:0 auto;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	border: 2px solid #ccc;
+	overflow: hidden;
+}
+
+.img_holder img,.m_img_holder img{
+	height: 140px;
+	max-width: 200px;
+	border: 1px solid #ccc;
+}
+
+.img_box {
+	position: relative;
+	display: inline-block;
+	margin:10px 14px 20px 20px;
+	padding: 12px;
+	vertical-align: top;
+	border: 1px transparent dashed;
+	box-shadow: 2px 2px 10px #ccc;
+}
+
+.img_box:hover .delete{
+	display: block;
+}
+
+.img_box .delete{
+	position: absolute;
+	right: 1px;
+	top: 0;
+	display: none;
+	font-family: Arial;
+	font-size: 12px;
+	cursor: pointer;
+}
+
+.progress{
+	display: inline-block;
+	margin-top: 10px;
+}

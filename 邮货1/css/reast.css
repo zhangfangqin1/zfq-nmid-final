@@ -1,0 +1,15 @@
+/**通配符**/
+* {
+	padding: 0px;
+	margin: 0px;
+}
+
+/**样式重置**/
+li {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+	color: #000;
+}

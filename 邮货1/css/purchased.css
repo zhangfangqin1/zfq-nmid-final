@@ -1,0 +1,68 @@
+#wrapper {
+	margin: 0 auto;
+}
+.purchased-list {
+	width: 980px;
+	margin-bottom: 20px;
+	margin: 0 auto;
+}
+.selectall input {
+	margin-left: 20px;
+}
+.selectall span {
+	display: inline-block;
+	margin: 10px 20px;
+	font-size: 16px;
+
+}
+.purchased-detail {
+	margin-bottom: 20px;
+	border:2px solid #ccc;
+	border-radius: 10px;
+}
+.completed-time {
+	display: inline-block;
+	position: relative;
+	left: 200px;
+	bottom: 100px;
+}
+.completed-time span {
+	margin: 10px 20px;
+}
+.purchased-select {
+	height: 226px;
+	margin: 10px 20px;
+	border:1px solid #ccc;
+	border-radius: 4px;
+}
+
+.purchased-select input {
+	display: inline-block;
+	margin-left: 20px;
+	margin-top: 20px;
+}
+.purchased-select>img {
+	height: 200px;
+	margin-top: 12px;
+	margin-left: 20px;
+} 
+.purchased-select>img:hover {
+	position: relative;
+	bottom: 2px;
+	left: 2px;
+	cursor: pointer;
+}
+.purchased-name {
+	display: inline-block;
+	margin-left: 22px;
+	margin-top: 70px;
+	vertical-align: top;
+}
+.purchased-select p {
+	margin-top: 10px;
+	margin-left: 10px;
+}
+.purchased-select a:hover {
+	cursor: pointer;
+	color: #ffda44;
+}

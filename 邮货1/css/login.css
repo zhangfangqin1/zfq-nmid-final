@@ -1,0 +1,116 @@
+/*登录框*/
+#log_page {
+	display: none;
+}
+
+.link{
+	padding-right: 40px;
+	text-align: right;
+	line-height: 20px;
+}
+
+.dialog{ 
+	display: none;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	width: 380px;
+	height: auto;
+	z-index: 9000;
+	border: 1px solid #D5D5D5;
+	background: #fff;
+}
+
+.dialog a {
+	text-decoration: none;
+}
+
+.title {
+	height: 48px;
+	line-height: 48px;
+	font-size: 16px; 
+	padding:0px 20px;
+	color: #535353;
+	border-bottom: 1px solid #efefef;
+	background: #f5f5f5;
+	cursor: move;
+	user-select:none;
+}
+
+.closebutton {
+	display: block;
+	position: absolute;
+	top: 12px;
+	right: 20px;
+	width: 16px;
+	height: 16px;	
+	background: url(../images/close_def.png) no-repeat;
+	cursor: pointer;
+}
+
+.closebutton:hover {
+	background: url(../images/close_hov.png) no-repeat;
+}
+
+.content {
+	padding: 15px 20px;
+}
+
+.pt {
+	padding-top: 15px;
+}
+
+.login{
+	height: 40px;
+	line-height: 40px;
+	text-align: right;
+}
+
+.input{
+	width: 100%;
+	height: 40px;
+	margin: 0px;
+	padding:0px;
+	border: 1px solid #d5d5d5;
+	font-size: 16px;
+	color: #c1c1c1;
+	text-indent: 25px;
+	outline: none;
+}
+
+.username {
+	background: url(../images/input_username.png) no-repeat 2px ;
+}
+
+.password{
+	background: url(../images/input_password.png) no-repeat 2px ;
+}
+
+.submit{
+	display: block;
+	width: 100%;
+	height: 50px;
+	background: #ffd144;
+	border:none;
+	font-size: 16px;
+	color: #fff;
+	text-align: center;line-height: 50px;
+	outline: none;
+	text-decoration: none;
+}
+
+.submit:hover {
+	background: #ffb644;
+}
+
+.mask { 
+	position: fixed;
+	width: 100%;
+	height:100%;
+	background: #000;
+	top: 0px;
+	height: 0px;
+	z-index: 8000;
+	opacity:0.4; 
+	filter: Alpha(opacity=40);
+}

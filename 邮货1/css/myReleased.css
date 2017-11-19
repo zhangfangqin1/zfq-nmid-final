@@ -1,0 +1,73 @@
+#wrapper {
+	margin: 0 auto;
+}
+.myReleased-list {
+	width: 980px;
+	margin: 0 auto;
+	margin-bottom: 20px;
+}
+.selectall input {
+	margin-left: 20px;
+}
+.selectall span {
+	display: inline-block;
+	margin: 10px 20px;
+	font-size: 16px;
+
+}
+.released-detail {
+	border:2px solid #ccc;
+	border-radius: 10px;
+}
+.completed-time {
+	display: inline-block;
+	position: relative;
+	left: 200px;
+	bottom: 100px;
+}
+.completed-time span {
+	margin: 10px 20px;
+}
+.released-select {
+	height: 226px;
+	margin: 10px 20px;
+	border:1px solid #ccc;
+	border-radius: 4px;
+}
+
+.released-select input {
+	display: inline-block;
+	margin-left: 20px;
+	margin-top: 20px;
+}
+.released-select>img {
+	height: 200px;
+	margin-top: 12px;
+	margin-left: 20px;
+} 
+.released-select>img:hover {
+	position: relative;
+	bottom: 2px;
+	left: 2px;
+	cursor: pointer;
+}
+.released-name ,.status{
+	display: inline-block;
+	margin-left: 114px;
+	margin-top: 70px;
+	vertical-align: top;
+}
+.edit {
+	display: inline-block;
+	margin-left: 114px;
+	margin-top: 70px;
+	vertical-align: top;
+}
+.released-name a:hover,.edit a:hover {
+	cursor: pointer;
+	color: #ffda44;
+}
+.released-select p {
+	margin-top: 10px;
+	margin-left: 10px;
+}

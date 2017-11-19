@@ -1,0 +1,72 @@
+.collect-content {
+	margin: 20px 60px;
+	overflow: hidden;
+}
+
+.collections {
+	float: left;
+	width: 222px;
+	height: 300px;
+	margin: 10px 8px;
+	border: 2px solid #ccc;
+	border-radius: 10px;
+}
+
+.detail {
+	margin:10px 10px;
+}
+
+.detail img {
+	height: 200px;
+
+}
+.detail img:hover {
+	position: relative;
+	bottom: 2px;
+	left: 2px;
+	cursor: pointer;
+}
+
+.detail p {
+	display: inline-block;
+	font-size: 16px;
+	margin-bottom: 4px;
+	text-align: center;
+}
+.detail p a:hover {
+	cursor: pointer;
+	color: #ffda44;
+}
+
+.price {
+	width: 200px;
+	overflow: hidden;
+}
+
+.price p {
+	font-size: 14px;
+	margin-left: 4px;
+	margin-top: 6px;
+}
+
+.price a:hover {
+	cursor: pointer;
+	color: #ffda44;
+}
+.price p>span {
+	display: inline-block;
+	margin: 2px 2px;
+	color: red;
+}
+
+.price>span {
+	display: inline-block;
+	float: right;
+	margin-top: -22px;
+	margin-right: 14px;
+	font-size: 14px;
+}
+
+.price img {
+	margin-bottom: -3px;
+}
