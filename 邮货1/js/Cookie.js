@@ -3,6 +3,7 @@ function setCookie(name,value,iDay) {//名字 值 过期时间
 	oData.setData(oData.getData()+iDay);
 	document.cookie = name+"="+value+";erpires="+oData;
 }
+
 function getCookie(name) {
 	var arr = document.cookie.split(';');//'username=abc；password=354654;bbb=54sd545' cookie格式 使用分割方式
 	for(i=0;i<arr.length;i++) {
@@ -15,6 +16,7 @@ function getCookie(name) {
 		}
 	}	
 }
+
 function removeCookie(name) {
 	setCookie(name,"1",-1)
 }

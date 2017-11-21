@@ -3,6 +3,7 @@
 	overflow: hidden;
 }
 
+/*收藏商品详情*/
 .collections {
 	float: left;
 	width: 222px;
@@ -12,6 +13,7 @@
 	border-radius: 10px;
 }
 
+/*图片，名称*/
 .detail {
 	margin:10px 10px;
 }
@@ -38,6 +40,7 @@
 	color: #ffda44;
 }
 
+/*价格*/
 .price {
 	width: 200px;
 	overflow: hidden;

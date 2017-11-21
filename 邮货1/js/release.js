@@ -72,8 +72,8 @@ $("#submit-btn").click(function() {
         dataType: "json",
         success: function (data) {
             alert(1);
-           console.log(data);
-       
+            console.log(data);
+       		alert("发布成功！")
         },
         error: function (XMLHttpRequest, textStatus, errorThrown) {
             alert("请求失败！");

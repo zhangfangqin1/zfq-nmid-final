@@ -10,17 +10,15 @@
 	margin-top: 20px;
 }
 
-.focus {
-	border: 1px solid #ccc;
-}
+
 /*内容商品列表*/
 #main .main-top .goods-list {
 	position: relative;
-	float: left;
+	/*float: left;*/
 	display: inline-block;
-	padding-left: 8px;
 	height: 280px;
 	margin-right: 20px;
+	padding-left: 8px;		
 	border: 2px solid #e6e6e6;
 	border-radius: 5px;
 }
@@ -34,9 +32,6 @@
 #main .main-top .goods-list ul li {
 	width: 270px;
 	height: 55px;
-}
-.selected {
-	background-color:;
 }
 
 #main .main-top .goods-list ul li img {
@@ -90,12 +85,11 @@
 
 #tabs {
 	position: absolute;
-	list-style: none;
-	/*background: rgba(255,255,255,.5);*/
 	left: 222px;
 	bottom: 4px;
-	border-radius: 10px;
 	padding: 5px 0 5px 5px;
+	list-style: none;
+	border-radius: 10px;
 }
 
 .tab {
@@ -115,9 +109,9 @@
 .btn {
 	position: absolute;
 	top: 100px;
-	margin: 0 5px;
 	width: 40px;
 	height: 68px;
+	margin: 0 5px;
 	color: #ffffff;
 	background-color: rgba(255,255,255,.3);
 	text-align: center;
@@ -227,6 +221,7 @@
 #main .bottom-title p:hover {
 	color: #ffda44;
 }
+
 /*商品列表*/ 
 #main .goods-content {
 	margin: 0px 0px 46px 0px;

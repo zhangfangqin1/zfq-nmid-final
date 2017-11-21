@@ -5,15 +5,17 @@ $("#submit-btn").click(function() {
         url: url,
         data: {
           userId: 1,
-           name: $(".goods_name").val(),
-           price: $(".goods_price").val(),
-           catagory: $(".commodity").find("option:selected").val(),
-           detail:  $(".menu-name").find("option:selected").val(),
+          name: $(".goods_name").val(),
+          price: $(".goods_price").val(),
+          catagory: $(".commodity").find("option:selected").val(),
+          detail:  $(".addition textarea").val(),
         },
         dataType: "json",
         success: function (data) {
-           console.log(data);
-       
+          if(data.statusCode == "201") {
+            alert("发布成功！！！");
+            window.location.href = "homepage.html";
+          }  
         },
         error: function (XMLHttpRequest, textStatus, errorThrown) {
             alert("请求失败！");

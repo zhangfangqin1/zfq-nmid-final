@@ -1,68 +1,68 @@
 #wrapper {
 	margin: 0 auto;
 }
-.appointment-list {
-	width: 980px;
-	margin: 0 auto;
-	margin-bottom: 20px;
-}
-.selectall input {
+
+#wrapper .selectall input {
 	margin-left: 20px;
 }
-.selectall span {
+#wrapper .selectall span {
 	display: inline-block;
 	margin: 10px 20px;
 	font-size: 16px;
 
 }
-.appointment-detail {
+/*预约列表*/
+#wrapper .appointment-list {
+	width: 980px;
+	margin: 0 auto;
+	margin-bottom: 20px;
+}
+
+/*商品详情*/
+#wrapper .appointment-detail {
 	border:2px solid #ccc;
 	border-radius: 10px;
 }
-.completed-time {
-	display: inline-block;
-	position: relative;
-	left: 200px;
-	bottom: 100px;
-}
-.completed-time span {
-	margin: 10px 20px;
-}
-.appointment-select {
+
+#wrapper .appointment-select {
 	height: 226px;
 	margin: 10px 20px;
 	border:1px solid #ccc;
 	border-radius: 4px;
 }
 
-.appointment-select input {
+#wrapper .appointment-select input {
 	display: inline-block;
 	margin-left: 20px;
 	margin-top: 20px;
 }
-.appointment-select>img {
+/*商品图片*/
+#wrapper .appointment-select>img {
 	height: 200px;
 	margin-top: 12px;
 	margin-left: 20px;
 } 
-.appointment-select>img:hover {
+
+#wrapper .appointment-select>img:hover {
 	position: relative;
 	bottom: 2px;
 	left: 2px;
 	cursor: pointer; 
 }
-.appointment-name ,.status,.cancel{
+
+#wrapper .appointment-name ,.status,.cancel{
 	display: inline-block;
 	margin-left: 114px;
 	margin-top: 70px;
 	vertical-align: top;
 }
 
-.appointment-name a:hover,.cancel a:hover {
+#wrapper .appointment-name a:hover,.cancel a:hover {
 	cursor: pointer;
 	color: #ffda44;
 }
-.appointment-select p {
+
+#wrapper .appointment-select p {
 	margin-top: 10px;
 	margin-left: 10px;
 }

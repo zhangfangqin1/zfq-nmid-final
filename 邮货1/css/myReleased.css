@@ -1,14 +1,18 @@
 #wrapper {
 	margin: 0 auto;
 }
+
+/*已发布商品列表*/
 .myReleased-list {
 	width: 980px;
 	margin: 0 auto;
 	margin-bottom: 20px;
 }
+
 .selectall input {
 	margin-left: 20px;
 }
+
 .selectall span {
 	display: inline-block;
 	margin: 10px 20px;

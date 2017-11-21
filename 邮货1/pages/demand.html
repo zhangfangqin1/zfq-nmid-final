@@ -4,15 +4,17 @@
 	<meta charset="utf-8">
 	<link rel="stylesheet" type="text/css" href="../css/head&footer.css">
 	<link rel="stylesheet" type="text/css" href="../css/reast.css">
-	<link rel="stylesheet" type="text/css" href="../css/release.css">
+	<link rel="stylesheet" type="text/css" href="../css/demand.css">
 	<title>发布求购</title>
 </head>
 <body>
-<!--头部-->
+<!--头部--> 
 <div id="header">
 	<div class="top-nav">
 		<h1>邮货</h1>
 		<p><a href="">重庆邮电大学二手交易平台</p>
+
+		<!--导航栏-->
 		<ul class="nav-slider">
 			<li>
 				<a href="homepage.html">首页</a>
@@ -27,6 +29,8 @@
 				<a href="person.html">个人中心</a>
 			</li>
 		</ul>
+
+		<!--搜索框-->
 		<div class="search-text">		
 			<input type="text" id="inputSearch" placeholder="输入商品名称"/>
 			<div class="search-sub">
@@ -35,6 +39,7 @@
 				</a>
 			</div>	
 		</div>
+		
 	</div>
 </div>
 
@@ -44,16 +49,18 @@
 <!--主体部分-->
 <div id="wrapper">
 	<form id="apply_from" action="http://nmid.gojay.xin:8080/Trade/api/goods/listAskGoods/{nowPage}" method="post">
-			<div class="content">
-		<div class="content-title">
-			<h1>发布求购</h1>
-		</div>
+		<div class="content">
+			<div class="content-title">
+				<h1>发布求购</h1>
+			</div>
 
 
-		<div class="input-bar name-bar">
-			<p>求购商品名称</p>
-			<input class="goods_name" type="text" name="name" placeholder="最多输入20个字">
-		</div>
+			<div class="input-bar name-bar">
+				<p>求购商品名称</p>
+				<input class="goods_name" type="text" name="name" placeholder="最多输入20个字">
+			</div>
+
+			<!--商品分类-->
 			<div class="input-bar">
 				<p>商品分类</p>
 				<select class="commodity">
@@ -62,9 +69,6 @@
 					<option value="服饰鞋帽">服饰鞋帽</option>
 					<option value="日用品">日用品</option>
 					<option value="书">书</option>
-				</select>
-
-				<select class="menu-name">
 					<option value="手机">手机</option>
 					<option value="笔记本电脑">笔记本电脑</option>
 					<option value="平板电脑">平板电脑</option>
@@ -78,23 +82,26 @@
 				</select>
 			</div>
 
-		<div class="input-bar">
-			<p>理想价格:</p>
-			<input class="goods_price" type="text" name="price">
-			<span>元</span>
-		</div>
+			<!--价格-->
+			<div class="input-bar">
+				<p>理想价格:</p>
+				<input class="goods_price" type="text" name="price">
+				<span>元</span>
+			</div>
 
-		<div class="addition">
-			<p>说明</p>
-			<textarea></textarea>
-			<span>字数限制在200字以内</span>
-		</div>
+			<!--说明-->
+			<div class="addition">
+				<p>说明</p>
+				<textarea></textarea>
+				<span>字数限制在200字以内</span>
+			</div>
 
-		<div class="submit">
-			<button type="button" value="" id="submit-btn">发布</button>
-		</div>
+			<div class="submit">
+				<button type="button" value="" id="submit-btn">发布</button>
+			</div>
 	
-	</div>
+		</div>
+		
 	</form>
 
 </div>

@@ -5,6 +5,7 @@
 	background: #ffda44;
 }
 
+/*窄屏*/
 @media screen and (max-width: 1200px) {
     #header {
         width: 1200px;
@@ -17,7 +18,7 @@
     }
 }
 
-/*头部位置*/
+/*头部导航栏*/
 #header .top-nav {
 	position: relative;
 	margin: 0 auto;
@@ -85,6 +86,7 @@
 	width:100px;
 	height: 100px;
 }
+
 /*鼠标移过变化，待定*/
 #header .top-nav ul li:hover a {
 	color: #fff;

@@ -7,11 +7,13 @@
 	<link rel="stylesheet" type="text/css" href="../css/head&footer.css">
 	<link rel="stylesheet" type="text/css" href="../css/mySeek.css">
 <body>
-<!--头部-->
+<!--头部--> 
 <div id="header">
 	<div class="top-nav">
 		<h1>邮货</h1>
 		<p><a href="">重庆邮电大学二手交易平台</p>
+
+		<!--导航栏-->
 		<ul class="nav-slider">
 			<li>
 				<a href="homepage.html">首页</a>
@@ -27,6 +29,7 @@
 			</li>
 		</ul>
 
+		<!--搜索框-->
 		<div class="search-text">		
 			<input type="text" id="inputSearch" placeholder="输入商品名称"/>
 			<div class="search-sub">
@@ -35,27 +38,34 @@
 				</a>
 			</div>	
 		</div>
+		
 	</div>
 </div>
 
 <!--头部结尾-->
 <div id="wrapper">
+
+	
 	<div class="mySeek-list">
+
 		<div class="selectall">
-			<input type="checkbox" name="">
+			<input type="checkbox" name="" id="All">
 			<span>全选</span>
-			<span>删除</span>
+			<span><a href="##">删除</a></span>
 		</div>
 
+		<!--商品列表-->
 		<div class="mySeek-detail">
 
 			<div class="mySeek-select">
 				<input type="checkbox" name="">
 				<img src="../images/goods-4.png">
+
 				<div class="mySeek-name">
 					<p><a href="##">名称:</a></p>
 					<p>理想价格:</p>
 				</div>
+
 				<div class="status">
 					<p>交易状态</p>
 					<p>交易中/交易成功</p>
@@ -73,6 +83,7 @@
 					<p><a href="##">名称:</a></p>
 					<p>理想价格:</p>
 				</div>
+
 				<div class="status">
 					<p>交易状态</p>
 					<p>交易中/交易成功</p>
@@ -86,10 +97,12 @@
 			<div class="mySeek-select">
 				<input type="checkbox" name="">
 				<img src="../images/goods-3.png">
+
 				<div class="mySeek-name">
 					<p><a href="##">名称:</a></p>
 					<p>理想价格:</p>
 				</div>
+
 				<div class="status">
 					<p>交易状态</p>
 					<p>交易中/交易成功</p>
@@ -103,10 +116,12 @@
 			<div class="mySeek-select">
 				<input type="checkbox" name="">
 				<img src="../images/goods-2.png">
+
 				<div class="mySeek-name">
 					<p><a href="##">名称:</a></p>
 					<p>理想价格:</p>
 				</div>
+				
 				<div class="status">
 					<p>交易状态</p>
 					<p>交易中/交易成功</p>
@@ -132,5 +147,7 @@
 	</p>	
 </div>
 <!--底部结尾-->
+<script src="../js/jquery-3.2.1.min.js"></script>
+<script src="../js/myseek.js"></script>
 </body>
 </html>

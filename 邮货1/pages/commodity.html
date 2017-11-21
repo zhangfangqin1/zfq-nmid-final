@@ -7,11 +7,13 @@
 	<link rel="stylesheet" type="text/css" href="../css/head&footer.css">
 	<link rel="stylesheet" type="text/css" href="../css/commodity.css">
 <body>
-<!--头部-->
+<!--头部--> 
 <div id="header">
 	<div class="top-nav">
 		<h1>邮货</h1>
 		<p><a href="">重庆邮电大学二手交易平台</p>
+
+		<!--导航栏-->
 		<ul class="nav-slider">
 			<li>
 				<a href="homepage.html">首页</a>
@@ -26,27 +28,38 @@
 				<a href="person.html">个人中心</a>
 			</li>
 		</ul>
+
+		<!--搜索框-->
 		<div class="search-text">		
-			<input type="text" id="inputSearch" value="输入商品名称"/>	
+			<input type="text" id="inputSearch" placeholder="输入商品名称"/>
+			<div class="search-sub">
+				<a href="##">
+					<img src="../images/search.png">
+				</a>
+			</div>	
 		</div>
+		
 	</div>
 </div>
 
 <!--头部结尾-->
 <div id="wrapper">
+
+	<!--商品详情-->
 	<div class="commodity">
 		<img src="../images/goods-1.png">
 		<div class="commodity-detail">
-			<p>名称：</p>
-			<p>价格：</p>
-			<p>手机：</p>
-			<p>QQ：</p>
+			<p>名称：鞋子</p>
+			<p>价格：299</p>
+			<p>手机：13419072952</p>
+			<p>QQ：1448512629</p>
 		</div>
 		<div class="collect">
 			<a href="##"><img src="../images/collect.png"></a>
-			<span><a href="##">收藏</a></span>
+			<span>收藏</span>
 		</div>
 	</div>
+
 </div>
 
 <!--底部-->
@@ -60,7 +73,8 @@
 	</p>	
 </div>
 <!--底部结尾-->
+
 <script src="../js/jquery-3.2.1.min.js"></script>
-<script src="../js/hop.js"></script>
+<script src="../js/collect.js"></script>
 </body>
 </html>

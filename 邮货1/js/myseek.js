@@ -1,6 +1,13 @@
 $(document).ready(function() {
-	$(".cancel p a").click(function() {
-		$(".mySeek-select").css("display","none");
-		alert(1);
+	$("#All").change(function() {
+		var flage = $(this).is(":checked");
+		$("input[type=checkbox]").each(function() {
+			$(this).prop("checked",flage);
+		});
+	});
+
+	$(".selectall a").click(function() {
+		alert("确定删除所有商品？");
+		$(".mySeek-detail").css("display","none");
 	});
 });

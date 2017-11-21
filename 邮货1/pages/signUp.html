@@ -82,16 +82,16 @@
         dataType: "json",
         success: function (data) {
         	console.log(data);
-            if (data.statusCode = '400') {
-            	alert(1);
+            if (data.statusCode = '201') {
+            	alert("注册成功！");
+                window.location.href = "homepage.html";
+            } else {
+                alert("注册失败！");
             }
-            else{
-            alert(2);
-        }
            
         },
         error: function (XMLHttpRequest, textStatus, errorThrown) {
-            alert("请求失败！");
+            alert("注册失败！");
         }
     });
 }

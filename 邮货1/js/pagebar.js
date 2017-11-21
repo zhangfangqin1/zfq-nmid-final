@@ -38,7 +38,7 @@ li[0].onclick = function(){
             
             $.each(data.body.list, function(i, item) {
             /*$("#goods-list li div img").attr("src", "http://nmid.gojay.xin:8080/Trade/upload/images/ + item.image");*/
-            
+            alert(item.image);
             $("#goods-wrapper li div p a:eq("+i+")").html(item.name);
             $("#goods-wrapper li div p span:eq("+i+")").html(item.price);
         });
@@ -62,7 +62,7 @@ li[li.length-1].onclick = function(){
         },
         dataType: "json",
         success: function (data) {
-            alert(1);
+           
             $.each(data.body.list, function(i, item) {
             /*$("#goods-list li div img").attr("src", "http://nmid.gojay.xin:8080/Trade/upload/images/ + item.image");*/
             
